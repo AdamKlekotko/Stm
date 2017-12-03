@@ -1,0 +1,60 @@
+Configuration	inz
+STM32CubeMX 	4.22.1
+Date	10/26/2017
+MCU	STM32F302R8Tx
+
+
+
+PERIPHERALS	MODES	FUNCTIONS	PINS
+ADC1	IN1 Single-ended	ADC1_IN1	PA0
+DAC	OUT1 Configuration	DAC_OUT1	PA4
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+USART1	Asynchronous	USART1_RX	PC5
+USART1	Asynchronous	USART1_TX	PC4
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+2	PC13	GPIO_EXTI13	B1 [Blue PushButton]
+3	PC14 - OSC32_IN*	RCC_OSC32_IN	
+4	PC15 - OSC32_OUT*	RCC_OSC32_OUT	
+5	PF0-OSC_IN*	RCC_OSC_IN	
+6	PF1-OSC_OUT*	RCC_OSC_OUT	
+14	PA0	ADC1_IN1	
+16	PA2*	USART2_TX	USART_TX
+17	PA3*	USART2_RX	USART_RX
+20	PA4	DAC_OUT1	
+24	PC4	USART1_TX	
+25	PC5	USART1_RX	
+34	PB13	GPIO_Output	LD2 [Green Led]
+46	PA13*	SYS_JTMS-SWDIO	TMS
+49	PA14*	SYS_JTCK-SWCLK	TCK
+55	PB3*	SYS_JTDO-TRACESWO	SWO
+
+
+
+SOFTWARE PROJECT
+
+Project Settings : 
+Project Name : inz
+Project Folder : C:\Users\adamk\STM32Cube\Projects\inz
+Toolchain / IDE : TrueSTUDIO
+Firmware Package Name and Version : STM32Cube FW_F3 V1.9.0
+
+
+Code Generation Settings : 
+STM32Cube Firmware Library Package : Copy only the necessary library files
+Generate peripheral initialization as a pair of '.c/.h' files per peripheral : No
+Backup previously generated files when re-generating : No
+Delete previously generated files when not re-generated : Yes
+Set all free pins as analog (to optimize the power consumption) : No
+
+
+Toolchains Settings : 
+Compiler Optimizations : Balanced Size/Speed
+
+
+
+
+
+

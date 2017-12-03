@@ -1,0 +1,73 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.24.2.0
+Copyright (C) 2017 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Adam Klekotko, WUT, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.24.1
+Toolchain Path:  D:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 5 (build 528)
+Assembler:       Armasm.exe V5.06 update 5 (build 528)
+Linker/Locator:  ArmLink.exe V5.06 update 5 (build 528)
+Library Manager: ArmAr.exe V5.06 update 5 (build 528)
+Hex Converter:   FromElf.exe V5.06 update 5 (build 528)
+CPU DLL:         SARMCM3.DLL V5.24.1
+Dialog DLL:      DCM.DLL V1.16.0.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.1.0
+Dialog DLL:      TCM.DLL V1.32.0.0
+ 
+<h2>Project:</h2>
+C:\Users\adamk\STM32Cube\Projects\inz\MDK-ARM\inz.uvprojx
+Project File Date:  10/27/2017
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 5 (build 528)', folder: 'D:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'inz'
+compiling main.c...
+../Src/main.c(63): error:  #29: expected an expression
+  uint16_t ADC_Measure[32] = {};
+../Src/main.c(64): error:  #29: expected an expression
+  uint16_t ADC_in_VOLTS[32] = {};
+../Src/main.c(119): error:  #167: argument of type "const uint16_t *" is incompatible with parameter of type "uint32_t *"
+    HAL_DAC_Start_DMA(&hdac,
+AC_CHANNEL_1,Sine12bit,32,
+AC_ALIGN_12B_R);
+../Src/main.c(123): error:  #167: argument of type "uint16_t *" is incompatible with parameter of type "uint32_t *"
+    HAL_ADC_Start_DMA(&hadc1,ADC_Measure,32);
+../Src/main.c(124): error:  #167: argument of type "uint16_t *" is incompatible with parameter of type "uint8_t *"
+    HAL_UART_Transmit(&huart1,ADC_Measure,32,1000);
+../Src/main.c(130): error:  #167: argument of type "uint16_t *" is incompatible with parameter of type "uint8_t *"
+    HAL_UART_Transmit(&huart1,ADC_in_VOLTS,32,1000);
+../Src/main.c: 0 warnings, 6 errors
+"inz\inz.axf" - 6 Error(s), 0 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.1.1.pack
+                ARM.CMSIS.5.1.1
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.0.2
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F3xx_DFP.1.4.0.pack
+                Keil.STM32F3xx_DFP.1.4.0
+                STMicroelectronics STM32F3 Series Device Support and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_inz
+  D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.1.1\CMSIS\Include
+  D:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\1.4.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.0.2
+Target not created.
+Build Time Elapsed:  00:00:10
+</pre>
+</body>
+</html>

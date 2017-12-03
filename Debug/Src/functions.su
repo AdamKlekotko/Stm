@@ -1,0 +1,3 @@
+functions.c:11:6:Measure_and_send	8	static
+functions.c:31:6:Change_Freq_Manualy	0	static
+functions.c:38:6:Impedance_auto_measure	48	static

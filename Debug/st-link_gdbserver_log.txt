@@ -1,0 +1,878 @@
+[1.865] reset_hw_wtchpt_module():  Hardware watchpoint supported by the target 
+[1.871] createFlashParams():  STM32 device: Flash size =65535
+[1.976] STM32_AppReset():  Enter STM32_AppReset() function 
+[2.082] STM32_AppReset():  NVIC_DFSR_REG = 0x00000009
+[2.082] STM32_AppReset():  NVIC_CFGFSR_REG = 0x00000000
+[2.083] STM32_AppReset():  XPSR = 0x01000000
+[2.083] Device_Initialise():  ST_LINK Major version =2 Jtag version =27
+[2.083] Device_Initialise():  ST_LINK VID=1155 PID=14155
+[2.083] Device_Initialise():  ST_LINK device status: HALT_MODE
+[2.084] Device_Initialise():  ST_LINK detects target voltage =3.27 Volt
+[2.084] initServerContext():  ST-Link device initialization OK
+[2.085] WaitConnection():  Waiting for connection on port 61234...
+[2.535] WaitConnection():  Accepted connection on port 61234...
+[2.536] Device_GetStatus():  ST_LINK device status: HALT_MODE
+[2.655] handlePacket():  Reading 0x4 bytes of memory from addr 0x8002c8c 
+[2.657] handlePacket():  Reading 0x4 bytes of memory from addr 0x2000402c 
+[2.658] handlePacket():  Reading 0x4 bytes of memory from addr 0x2000402c 
+[2.684] handlePacket():  Reading 0x2 bytes of memory from addr 0x80027da 
+[2.685] handlePacket():  Reading 0x2 bytes of memory from addr 0x80027da 
+[2.699] handleFlashPacket():  Flash erase: Address= 0x8000000, Length=12288 
+[2.699] flash_page_erase():  FuncEntry
+[2.699] unlock_flash_prg_and_erase_ctrler_bank1():  FuncEntry
+[2.700] unlock_flash_prg_and_erase_ctrler_bank1():  FuncExit
+[2.702] wait_while_flash_busy_bank1():  FuncEntry
+[2.702] wait_while_flash_busy_bank1():  Flash status busy
+[2.702] wait_while_flash_busy_bank1():  Flash status busy
+[2.703] wait_while_flash_busy_bank1():  Flash status busy
+[2.703] wait_while_flash_busy_bank1():  Flash status busy
+[2.704] wait_while_flash_busy_bank1():  Flash status busy
+[2.704] wait_while_flash_busy_bank1():  Flash status busy
+[2.705] wait_while_flash_busy_bank1():  Flash status busy
+[2.705] wait_while_flash_busy_bank1():  Flash status busy
+[2.705] wait_while_flash_busy_bank1():  Flash status busy
+[2.706] wait_while_flash_busy_bank1():  Flash status busy
+[2.706] wait_while_flash_busy_bank1():  Flash status busy
+[2.706] wait_while_flash_busy_bank1():  Flash status busy
+[2.707] wait_while_flash_busy_bank1():  Flash status busy
+[2.707] wait_while_flash_busy_bank1():  Flash status busy
+[2.708] wait_while_flash_busy_bank1():  Flash status busy
+[2.708] wait_while_flash_busy_bank1():  Flash status busy
+[2.708] wait_while_flash_busy_bank1():  Flash status busy
+[2.709] wait_while_flash_busy_bank1():  Flash status busy
+[2.709] wait_while_flash_busy_bank1():  Flash status busy
+[2.709] wait_while_flash_busy_bank1():  Flash status busy
+[2.710] wait_while_flash_busy_bank1():  Flash status busy
+[2.710] wait_while_flash_busy_bank1():  Flash status busy
+[2.711] wait_while_flash_busy_bank1():  Flash status busy
+[2.711] wait_while_flash_busy_bank1():  Flash status busy
+[2.711] wait_while_flash_busy_bank1():  Flash status busy
+[2.712] wait_while_flash_busy_bank1():  Flash status busy
+[2.712] wait_while_flash_busy_bank1():  Flash status busy
+[2.713] wait_while_flash_busy_bank1():  Flash status busy
+[2.713] wait_while_flash_busy_bank1():  Flash status busy
+[2.713] wait_while_flash_busy_bank1():  Flash status busy
+[2.714] wait_while_flash_busy_bank1():  Flash status busy
+[2.714] wait_while_flash_busy_bank1():  Flash status busy
+[2.715] wait_while_flash_busy_bank1():  Flash status busy
+[2.715] wait_while_flash_busy_bank1():  Flash status busy
+[2.716] wait_while_flash_busy_bank1():  Flash status busy
+[2.716] wait_while_flash_busy_bank1():  Flash status busy
+[2.716] wait_while_flash_busy_bank1():  Flash status busy
+[2.717] wait_while_flash_busy_bank1():  Flash status busy
+[2.717] wait_while_flash_busy_bank1():  Flash status busy
+[2.718] wait_while_flash_busy_bank1():  Flash status busy
+[2.718] wait_while_flash_busy_bank1():  Flash status busy
+[2.718] wait_while_flash_busy_bank1():  Flash status busy
+[2.719] wait_while_flash_busy_bank1():  Flash status busy
+[2.719] wait_while_flash_busy_bank1():  Flash status busy
+[2.720] wait_while_flash_busy_bank1():  Flash status busy
+[2.720] wait_while_flash_busy_bank1():  Flash status busy
+[2.720] wait_while_flash_busy_bank1():  Flash status busy
+[2.721] wait_while_flash_busy_bank1():  Flash status busy
+[2.721] wait_while_flash_busy_bank1():  Flash status busy
+[2.722] wait_while_flash_busy_bank1():  Flash status busy
+[2.722] wait_while_flash_busy_bank1():  Flash status busy
+[2.722] wait_while_flash_busy_bank1():  Flash status busy
+[2.723] wait_while_flash_busy_bank1():  Flash status busy
+[2.723] wait_while_flash_busy_bank1():  Flash status busy
+[2.723] wait_while_flash_busy_bank1():  Flash status busy
+[2.724] wait_while_flash_busy_bank1():  FuncExit
+[2.724] lock_flash_prg_and_erase_ctrler_bank1():  FuncEntry
+[2.725] lock_flash_prg_and_erase_ctrler_bank1():  FuncExit
+[2.725] unlock_flash_prg_and_erase_ctrler_bank1():  FuncEntry
+[2.726] unlock_flash_prg_and_erase_ctrler_bank1():  FuncExit
+[2.727] wait_while_flash_busy_bank1():  FuncEntry
+[2.728] wait_while_flash_busy_bank1():  Flash status busy
+[2.728] wait_while_flash_busy_bank1():  Flash status busy
+[2.729] wait_while_flash_busy_bank1():  Flash status busy
+[2.729] wait_while_flash_busy_bank1():  Flash status busy
+[2.729] wait_while_flash_busy_bank1():  Flash status busy
+[2.730] wait_while_flash_busy_bank1():  Flash status busy
+[2.730] wait_while_flash_busy_bank1():  Flash status busy
+[2.730] wait_while_flash_busy_bank1():  Flash status busy
+[2.731] wait_while_flash_busy_bank1():  Flash status busy
+[2.731] wait_while_flash_busy_bank1():  Flash status busy
+[2.731] wait_while_flash_busy_bank1():  Flash status busy
+[2.732] wait_while_flash_busy_bank1():  Flash status busy
+[2.732] wait_while_flash_busy_bank1():  Flash status busy
+[2.733] wait_while_flash_busy_bank1():  Flash status busy
+[2.733] wait_while_flash_busy_bank1():  Flash status busy
+[2.733] wait_while_flash_busy_bank1():  Flash status busy
+[2.734] wait_while_flash_busy_bank1():  Flash status busy
+[2.734] wait_while_flash_busy_bank1():  Flash status busy
+[2.734] wait_while_flash_busy_bank1():  Flash status busy
+[2.735] wait_while_flash_busy_bank1():  Flash status busy
+[2.735] wait_while_flash_busy_bank1():  Flash status busy
+[2.736] wait_while_flash_busy_bank1():  Flash status busy
+[2.736] wait_while_flash_busy_bank1():  Flash status busy
+[2.736] wait_while_flash_busy_bank1():  Flash status busy
+[2.737] wait_while_flash_busy_bank1():  Flash status busy
+[2.737] wait_while_flash_busy_bank1():  Flash status busy
+[2.738] wait_while_flash_busy_bank1():  Flash status busy
+[2.738] wait_while_flash_busy_bank1():  Flash status busy
+[2.738] wait_while_flash_busy_bank1():  Flash status busy
+[2.739] wait_while_flash_busy_bank1():  Flash status busy
+[2.739] wait_while_flash_busy_bank1():  Flash status busy
+[2.740] wait_while_flash_busy_bank1():  Flash status busy
+[2.740] wait_while_flash_busy_bank1():  Flash status busy
+[2.741] wait_while_flash_busy_bank1():  Flash status busy
+[2.741] wait_while_flash_busy_bank1():  Flash status busy
+[2.741] wait_while_flash_busy_bank1():  Flash status busy
+[2.742] wait_while_flash_busy_bank1():  Flash status busy
+[2.742] wait_while_flash_busy_bank1():  Flash status busy
+[2.743] wait_while_flash_busy_bank1():  Flash status busy
+[2.743] wait_while_flash_busy_bank1():  Flash status busy
+[2.743] wait_while_flash_busy_bank1():  Flash status busy
+[2.744] wait_while_flash_busy_bank1():  Flash status busy
+[2.744] wait_while_flash_busy_bank1():  Flash status busy
+[2.744] wait_while_flash_busy_bank1():  Flash status busy
+[2.745] wait_while_flash_busy_bank1():  Flash status busy
+[2.745] wait_while_flash_busy_bank1():  Flash status busy
+[2.745] wait_while_flash_busy_bank1():  Flash status busy
+[2.746] wait_while_flash_busy_bank1():  Flash status busy
+[2.747] wait_while_flash_busy_bank1():  Flash status busy
+[2.747] wait_while_flash_busy_bank1():  Flash status busy
+[2.747] wait_while_flash_busy_bank1():  Flash status busy
+[2.748] wait_while_flash_busy_bank1():  Flash status busy
+[2.748] wait_while_flash_busy_bank1():  Flash status busy
+[2.748] wait_while_flash_busy_bank1():  Flash status busy
+[2.749] wait_while_flash_busy_bank1():  Flash status busy
+[2.749] wait_while_flash_busy_bank1():  Flash status busy
+[2.750] wait_while_flash_busy_bank1():  Flash status busy
+[2.750] wait_while_flash_busy_bank1():  FuncExit
+[2.750] lock_flash_prg_and_erase_ctrler_bank1():  FuncEntry
+[2.751] lock_flash_prg_and_erase_ctrler_bank1():  FuncExit
+[2.751] unlock_flash_prg_and_erase_ctrler_bank1():  FuncEntry
+[2.752] unlock_flash_prg_and_erase_ctrler_bank1():  FuncExit
+[2.753] wait_while_flash_busy_bank1():  FuncEntry
+[2.754] wait_while_flash_busy_bank1():  Flash status busy
+[2.754] wait_while_flash_busy_bank1():  Flash status busy
+[2.754] wait_while_flash_busy_bank1():  Flash status busy
+[2.755] wait_while_flash_busy_bank1():  Flash status busy
+[2.755] wait_while_flash_busy_bank1():  Flash status busy
+[2.755] wait_while_flash_busy_bank1():  Flash status busy
+[2.756] wait_while_flash_busy_bank1():  Flash status busy
+[2.756] wait_while_flash_busy_bank1():  Flash status busy
+[2.756] wait_while_flash_busy_bank1():  Flash status busy
+[2.757] wait_while_flash_busy_bank1():  Flash status busy
+[2.757] wait_while_flash_busy_bank1():  Flash status busy
+[2.758] wait_while_flash_busy_bank1():  Flash status busy
+[2.758] wait_while_flash_busy_bank1():  Flash status busy
+[2.758] wait_while_flash_busy_bank1():  Flash status busy
+[2.759] wait_while_flash_busy_bank1():  Flash status busy
+[2.759] wait_while_flash_busy_bank1():  Flash status busy
+[2.759] wait_while_flash_busy_bank1():  Flash status busy
+[2.760] wait_while_flash_busy_bank1():  Flash status busy
+[2.760] wait_while_flash_busy_bank1():  Flash status busy
+[2.761] wait_while_flash_busy_bank1():  Flash status busy
+[2.761] wait_while_flash_busy_bank1():  Flash status busy
+[2.761] wait_while_flash_busy_bank1():  Flash status busy
+[2.762] wait_while_flash_busy_bank1():  Flash status busy
+[2.762] wait_while_flash_busy_bank1():  Flash status busy
+[2.762] wait_while_flash_busy_bank1():  Flash status busy
+[2.763] wait_while_flash_busy_bank1():  Flash status busy
+[2.763] wait_while_flash_busy_bank1():  Flash status busy
+[2.763] wait_while_flash_busy_bank1():  Flash status busy
+[2.764] wait_while_flash_busy_bank1():  Flash status busy
+[2.764] wait_while_flash_busy_bank1():  Flash status busy
+[2.765] wait_while_flash_busy_bank1():  Flash status busy
+[2.765] wait_while_flash_busy_bank1():  Flash status busy
+[2.765] wait_while_flash_busy_bank1():  Flash status busy
+[2.766] wait_while_flash_busy_bank1():  Flash status busy
+[2.766] wait_while_flash_busy_bank1():  Flash status busy
+[2.766] wait_while_flash_busy_bank1():  Flash status busy
+[2.767] wait_while_flash_busy_bank1():  Flash status busy
+[2.767] wait_while_flash_busy_bank1():  Flash status busy
+[2.768] wait_while_flash_busy_bank1():  Flash status busy
+[2.768] wait_while_flash_busy_bank1():  Flash status busy
+[2.768] wait_while_flash_busy_bank1():  Flash status busy
+[2.769] wait_while_flash_busy_bank1():  Flash status busy
+[2.769] wait_while_flash_busy_bank1():  Flash status busy
+[2.770] wait_while_flash_busy_bank1():  Flash status busy
+[2.770] wait_while_flash_busy_bank1():  Flash status busy
+[2.770] wait_while_flash_busy_bank1():  Flash status busy
+[2.771] wait_while_flash_busy_bank1():  Flash status busy
+[2.771] wait_while_flash_busy_bank1():  Flash status busy
+[2.772] wait_while_flash_busy_bank1():  Flash status busy
+[2.772] wait_while_flash_busy_bank1():  Flash status busy
+[2.772] wait_while_flash_busy_bank1():  Flash status busy
+[2.773] wait_while_flash_busy_bank1():  Flash status busy
+[2.773] wait_while_flash_busy_bank1():  Flash status busy
+[2.773] wait_while_flash_busy_bank1():  Flash status busy
+[2.774] wait_while_flash_busy_bank1():  Flash status busy
+[2.774] wait_while_flash_busy_bank1():  Flash status busy
+[2.775] wait_while_flash_busy_bank1():  Flash status busy
+[2.775] wait_while_flash_busy_bank1():  Flash status busy
+[2.775] wait_while_flash_busy_bank1():  Flash status busy
+[2.776] wait_while_flash_busy_bank1():  FuncExit
+[2.776] lock_flash_prg_and_erase_ctrler_bank1():  FuncEntry
+[2.776] lock_flash_prg_and_erase_ctrler_bank1():  FuncExit
+[2.777] unlock_flash_prg_and_erase_ctrler_bank1():  FuncEntry
+[2.778] unlock_flash_prg_and_erase_ctrler_bank1():  FuncExit
+[2.779] wait_while_flash_busy_bank1():  FuncEntry
+[2.779] wait_while_flash_busy_bank1():  Flash status busy
+[2.780] wait_while_flash_busy_bank1():  Flash status busy
+[2.780] wait_while_flash_busy_bank1():  Flash status busy
+[2.781] wait_while_flash_busy_bank1():  Flash status busy
+[2.781] wait_while_flash_busy_bank1():  Flash status busy
+[2.782] wait_while_flash_busy_bank1():  Flash status busy
+[2.782] wait_while_flash_busy_bank1():  Flash status busy
+[2.782] wait_while_flash_busy_bank1():  Flash status busy
+[2.783] wait_while_flash_busy_bank1():  Flash status busy
+[2.783] wait_while_flash_busy_bank1():  Flash status busy
+[2.783] wait_while_flash_busy_bank1():  Flash status busy
+[2.783] wait_while_flash_busy_bank1():  Flash status busy
+[2.784] wait_while_flash_busy_bank1():  Flash status busy
+[2.784] wait_while_flash_busy_bank1():  Flash status busy
+[2.785] wait_while_flash_busy_bank1():  Flash status busy
+[2.785] wait_while_flash_busy_bank1():  Flash status busy
+[2.785] wait_while_flash_busy_bank1():  Flash status busy
+[2.786] wait_while_flash_busy_bank1():  Flash status busy
+[2.786] wait_while_flash_busy_bank1():  Flash status busy
+[2.786] wait_while_flash_busy_bank1():  Flash status busy
+[2.787] wait_while_flash_busy_bank1():  Flash status busy
+[2.787] wait_while_flash_busy_bank1():  Flash status busy
+[2.787] wait_while_flash_busy_bank1():  Flash status busy
+[2.788] wait_while_flash_busy_bank1():  Flash status busy
+[2.788] wait_while_flash_busy_bank1():  Flash status busy
+[2.788] wait_while_flash_busy_bank1():  Flash status busy
+[2.789] wait_while_flash_busy_bank1():  Flash status busy
+[2.789] wait_while_flash_busy_bank1():  Flash status busy
+[2.790] wait_while_flash_busy_bank1():  Flash status busy
+[2.790] wait_while_flash_busy_bank1():  Flash status busy
+[2.790] wait_while_flash_busy_bank1():  Flash status busy
+[2.791] wait_while_flash_busy_bank1():  Flash status busy
+[2.791] wait_while_flash_busy_bank1():  Flash status busy
+[2.791] wait_while_flash_busy_bank1():  Flash status busy
+[2.792] wait_while_flash_busy_bank1():  Flash status busy
+[2.792] wait_while_flash_busy_bank1():  Flash status busy
+[2.792] wait_while_flash_busy_bank1():  Flash status busy
+[2.793] wait_while_flash_busy_bank1():  Flash status busy
+[2.793] wait_while_flash_busy_bank1():  Flash status busy
+[2.794] wait_while_flash_busy_bank1():  Flash status busy
+[2.794] wait_while_flash_busy_bank1():  Flash status busy
+[2.794] wait_while_flash_busy_bank1():  Flash status busy
+[2.795] wait_while_flash_busy_bank1():  Flash status busy
+[2.795] wait_while_flash_busy_bank1():  Flash status busy
+[2.797] wait_while_flash_busy_bank1():  Flash status busy
+[2.797] wait_while_flash_busy_bank1():  Flash status busy
+[2.797] wait_while_flash_busy_bank1():  Flash status busy
+[2.797] wait_while_flash_busy_bank1():  Flash status busy
+[2.798] wait_while_flash_busy_bank1():  Flash status busy
+[2.798] wait_while_flash_busy_bank1():  Flash status busy
+[2.799] wait_while_flash_busy_bank1():  Flash status busy
+[2.799] wait_while_flash_busy_bank1():  Flash status busy
+[2.800] wait_while_flash_busy_bank1():  Flash status busy
+[2.800] wait_while_flash_busy_bank1():  Flash status busy
+[2.801] wait_while_flash_busy_bank1():  Flash status busy
+[2.801] wait_while_flash_busy_bank1():  FuncExit
+[2.801] lock_flash_prg_and_erase_ctrler_bank1():  FuncEntry
+[2.802] lock_flash_prg_and_erase_ctrler_bank1():  FuncExit
+[2.802] unlock_flash_prg_and_erase_ctrler_bank1():  FuncEntry
+[2.803] unlock_flash_prg_and_erase_ctrler_bank1():  FuncExit
+[2.804] wait_while_flash_busy_bank1():  FuncEntry
+[2.805] wait_while_flash_busy_bank1():  Flash status busy
+[2.805] wait_while_flash_busy_bank1():  Flash status busy
+[2.806] wait_while_flash_busy_bank1():  Flash status busy
+[2.806] wait_while_flash_busy_bank1():  Flash status busy
+[2.806] wait_while_flash_busy_bank1():  Flash status busy
+[2.807] wait_while_flash_busy_bank1():  Flash status busy
+[2.807] wait_while_flash_busy_bank1():  Flash status busy
+[2.807] wait_while_flash_busy_bank1():  Flash status busy
+[2.808] wait_while_flash_busy_bank1():  Flash status busy
+[2.808] wait_while_flash_busy_bank1():  Flash status busy
+[2.809] wait_while_flash_busy_bank1():  Flash status busy
+[2.809] wait_while_flash_busy_bank1():  Flash status busy
+[2.809] wait_while_flash_busy_bank1():  Flash status busy
+[2.810] wait_while_flash_busy_bank1():  Flash status busy
+[2.810] wait_while_flash_busy_bank1():  Flash status busy
+[2.810] wait_while_flash_busy_bank1():  Flash status busy
+[2.811] wait_while_flash_busy_bank1():  Flash status busy
+[2.811] wait_while_flash_busy_bank1():  Flash status busy
+[2.812] wait_while_flash_busy_bank1():  Flash status busy
+[2.812] wait_while_flash_busy_bank1():  Flash status busy
+[2.812] wait_while_flash_busy_bank1():  Flash status busy
+[2.813] wait_while_flash_busy_bank1():  Flash status busy
+[2.813] wait_while_flash_busy_bank1():  Flash status busy
+[2.814] wait_while_flash_busy_bank1():  Flash status busy
+[2.814] wait_while_flash_busy_bank1():  Flash status busy
+[2.814] wait_while_flash_busy_bank1():  Flash status busy
+[2.815] wait_while_flash_busy_bank1():  Flash status busy
+[2.815] wait_while_flash_busy_bank1():  Flash status busy
+[2.815] wait_while_flash_busy_bank1():  Flash status busy
+[2.816] wait_while_flash_busy_bank1():  Flash status busy
+[2.816] wait_while_flash_busy_bank1():  Flash status busy
+[2.817] wait_while_flash_busy_bank1():  Flash status busy
+[2.817] wait_while_flash_busy_bank1():  Flash status busy
+[2.817] wait_while_flash_busy_bank1():  Flash status busy
+[2.818] wait_while_flash_busy_bank1():  Flash status busy
+[2.818] wait_while_flash_busy_bank1():  Flash status busy
+[2.819] wait_while_flash_busy_bank1():  Flash status busy
+[2.819] wait_while_flash_busy_bank1():  Flash status busy
+[2.819] wait_while_flash_busy_bank1():  Flash status busy
+[2.820] wait_while_flash_busy_bank1():  Flash status busy
+[2.820] wait_while_flash_busy_bank1():  Flash status busy
+[2.820] wait_while_flash_busy_bank1():  Flash status busy
+[2.822] wait_while_flash_busy_bank1():  Flash status busy
+[2.822] wait_while_flash_busy_bank1():  Flash status busy
+[2.822] wait_while_flash_busy_bank1():  Flash status busy
+[2.823] wait_while_flash_busy_bank1():  Flash status busy
+[2.823] wait_while_flash_busy_bank1():  Flash status busy
+[2.823] wait_while_flash_busy_bank1():  Flash status busy
+[2.824] wait_while_flash_busy_bank1():  Flash status busy
+[2.824] wait_while_flash_busy_bank1():  Flash status busy
+[2.824] wait_while_flash_busy_bank1():  Flash status busy
+[2.825] wait_while_flash_busy_bank1():  Flash status busy
+[2.825] wait_while_flash_busy_bank1():  Flash status busy
+[2.825] wait_while_flash_busy_bank1():  Flash status busy
+[2.826] wait_while_flash_busy_bank1():  Flash status busy
+[2.826] wait_while_flash_busy_bank1():  Flash status busy
+[2.826] wait_while_flash_busy_bank1():  Flash status busy
+[2.827] wait_while_flash_busy_bank1():  Flash status busy
+[2.827] wait_while_flash_busy_bank1():  Flash status busy
+[2.828] wait_while_flash_busy_bank1():  FuncExit
+[2.828] lock_flash_prg_and_erase_ctrler_bank1():  FuncEntry
+[2.828] lock_flash_prg_and_erase_ctrler_bank1():  FuncExit
+[2.829] unlock_flash_prg_and_erase_ctrler_bank1():  FuncEntry
+[2.830] unlock_flash_prg_and_erase_ctrler_bank1():  FuncExit
+[2.831] wait_while_flash_busy_bank1():  FuncEntry
+[2.831] wait_while_flash_busy_bank1():  Flash status busy
+[2.831] wait_while_flash_busy_bank1():  Flash status busy
+[2.832] wait_while_flash_busy_bank1():  Flash status busy
+[2.832] wait_while_flash_busy_bank1():  Flash status busy
+[2.833] wait_while_flash_busy_bank1():  Flash status busy
+[2.833] wait_while_flash_busy_bank1():  Flash status busy
+[2.834] wait_while_flash_busy_bank1():  Flash status busy
+[2.835] wait_while_flash_busy_bank1():  Flash status busy
+[2.835] wait_while_flash_busy_bank1():  Flash status busy
+[2.835] wait_while_flash_busy_bank1():  Flash status busy
+[2.836] wait_while_flash_busy_bank1():  Flash status busy
+[2.836] wait_while_flash_busy_bank1():  Flash status busy
+[2.837] wait_while_flash_busy_bank1():  Flash status busy
+[2.837] wait_while_flash_busy_bank1():  Flash status busy
+[2.837] wait_while_flash_busy_bank1():  Flash status busy
+[2.838] wait_while_flash_busy_bank1():  Flash status busy
+[2.838] wait_while_flash_busy_bank1():  Flash status busy
+[2.839] wait_while_flash_busy_bank1():  Flash status busy
+[2.839] wait_while_flash_busy_bank1():  Flash status busy
+[2.839] wait_while_flash_busy_bank1():  Flash status busy
+[2.840] wait_while_flash_busy_bank1():  Flash status busy
+[2.840] wait_while_flash_busy_bank1():  Flash status busy
+[2.841] wait_while_flash_busy_bank1():  Flash status busy
+[2.841] wait_while_flash_busy_bank1():  Flash status busy
+[2.841] wait_while_flash_busy_bank1():  Flash status busy
+[2.842] wait_while_flash_busy_bank1():  Flash status busy
+[2.842] wait_while_flash_busy_bank1():  Flash status busy
+[2.842] wait_while_flash_busy_bank1():  Flash status busy
+[2.843] wait_while_flash_busy_bank1():  Flash status busy
+[2.843] wait_while_flash_busy_bank1():  Flash status busy
+[2.844] wait_while_flash_busy_bank1():  Flash status busy
+[2.844] wait_while_flash_busy_bank1():  Flash status busy
+[2.844] wait_while_flash_busy_bank1():  Flash status busy
+[2.845] wait_while_flash_busy_bank1():  Flash status busy
+[2.845] wait_while_flash_busy_bank1():  Flash status busy
+[2.846] wait_while_flash_busy_bank1():  Flash status busy
+[2.846] wait_while_flash_busy_bank1():  Flash status busy
+[2.846] wait_while_flash_busy_bank1():  Flash status busy
+[2.847] wait_while_flash_busy_bank1():  Flash status busy
+[2.847] wait_while_flash_busy_bank1():  Flash status busy
+[2.847] wait_while_flash_busy_bank1():  Flash status busy
+[2.848] wait_while_flash_busy_bank1():  Flash status busy
+[2.848] wait_while_flash_busy_bank1():  Flash status busy
+[2.849] wait_while_flash_busy_bank1():  Flash status busy
+[2.849] wait_while_flash_busy_bank1():  Flash status busy
+[2.849] wait_while_flash_busy_bank1():  Flash status busy
+[2.850] wait_while_flash_busy_bank1():  Flash status busy
+[2.850] wait_while_flash_busy_bank1():  Flash status busy
+[2.851] wait_while_flash_busy_bank1():  Flash status busy
+[2.851] wait_while_flash_busy_bank1():  Flash status busy
+[2.851] wait_while_flash_busy_bank1():  Flash status busy
+[2.852] wait_while_flash_busy_bank1():  Flash status busy
+[2.852] wait_while_flash_busy_bank1():  Flash status busy
+[2.852] wait_while_flash_busy_bank1():  Flash status busy
+[2.853] wait_while_flash_busy_bank1():  FuncExit
+[2.853] lock_flash_prg_and_erase_ctrler_bank1():  FuncEntry
+[2.854] lock_flash_prg_and_erase_ctrler_bank1():  FuncExit
+[2.854] unlock_flash_prg_and_erase_ctrler_bank1():  FuncEntry
+[2.855] unlock_flash_prg_and_erase_ctrler_bank1():  FuncExit
+[2.856] wait_while_flash_busy_bank1():  FuncEntry
+[2.856] wait_while_flash_busy_bank1():  Flash status busy
+[2.857] wait_while_flash_busy_bank1():  Flash status busy
+[2.857] wait_while_flash_busy_bank1():  Flash status busy
+[2.858] wait_while_flash_busy_bank1():  Flash status busy
+[2.858] wait_while_flash_busy_bank1():  Flash status busy
+[2.859] wait_while_flash_busy_bank1():  Flash status busy
+[2.859] wait_while_flash_busy_bank1():  Flash status busy
+[2.859] wait_while_flash_busy_bank1():  Flash status busy
+[2.860] wait_while_flash_busy_bank1():  Flash status busy
+[2.860] wait_while_flash_busy_bank1():  Flash status busy
+[2.861] wait_while_flash_busy_bank1():  Flash status busy
+[2.861] wait_while_flash_busy_bank1():  Flash status busy
+[2.861] wait_while_flash_busy_bank1():  Flash status busy
+[2.862] wait_while_flash_busy_bank1():  Flash status busy
+[2.863] wait_while_flash_busy_bank1():  Flash status busy
+[2.863] wait_while_flash_busy_bank1():  Flash status busy
+[2.863] wait_while_flash_busy_bank1():  Flash status busy
+[2.864] wait_while_flash_busy_bank1():  Flash status busy
+[2.864] wait_while_flash_busy_bank1():  Flash status busy
+[2.865] wait_while_flash_busy_bank1():  Flash status busy
+[2.865] wait_while_flash_busy_bank1():  Flash status busy
+[2.865] wait_while_flash_busy_bank1():  Flash status busy
+[2.866] wait_while_flash_busy_bank1():  Flash status busy
+[2.866] wait_while_flash_busy_bank1():  Flash status busy
+[2.866] wait_while_flash_busy_bank1():  Flash status busy
+[2.867] wait_while_flash_busy_bank1():  Flash status busy
+[2.867] wait_while_flash_busy_bank1():  Flash status busy
+[2.868] wait_while_flash_busy_bank1():  Flash status busy
+[2.868] wait_while_flash_busy_bank1():  Flash status busy
+[2.868] wait_while_flash_busy_bank1():  Flash status busy
+[2.869] wait_while_flash_busy_bank1():  Flash status busy
+[2.869] wait_while_flash_busy_bank1():  Flash status busy
+[2.869] wait_while_flash_busy_bank1():  Flash status busy
+[2.870] wait_while_flash_busy_bank1():  Flash status busy
+[2.870] wait_while_flash_busy_bank1():  Flash status busy
+[2.870] wait_while_flash_busy_bank1():  Flash status busy
+[2.871] wait_while_flash_busy_bank1():  Flash status busy
+[2.871] wait_while_flash_busy_bank1():  Flash status busy
+[2.871] wait_while_flash_busy_bank1():  Flash status busy
+[2.872] wait_while_flash_busy_bank1():  Flash status busy
+[2.872] wait_while_flash_busy_bank1():  Flash status busy
+[2.873] wait_while_flash_busy_bank1():  Flash status busy
+[2.873] wait_while_flash_busy_bank1():  Flash status busy
+[2.873] wait_while_flash_busy_bank1():  Flash status busy
+[2.874] wait_while_flash_busy_bank1():  Flash status busy
+[2.874] wait_while_flash_busy_bank1():  Flash status busy
+[2.874] wait_while_flash_busy_bank1():  Flash status busy
+[2.875] wait_while_flash_busy_bank1():  Flash status busy
+[2.875] wait_while_flash_busy_bank1():  Flash status busy
+[2.876] wait_while_flash_busy_bank1():  Flash status busy
+[2.876] wait_while_flash_busy_bank1():  Flash status busy
+[2.876] wait_while_flash_busy_bank1():  Flash status busy
+[2.877] wait_while_flash_busy_bank1():  Flash status busy
+[2.878] wait_while_flash_busy_bank1():  Flash status busy
+[2.878] wait_while_flash_busy_bank1():  FuncExit
+[2.878] lock_flash_prg_and_erase_ctrler_bank1():  FuncEntry
+[2.879] lock_flash_prg_and_erase_ctrler_bank1():  FuncExit
+[2.880] unlock_flash_prg_and_erase_ctrler_bank1():  FuncEntry
+[2.882] unlock_flash_prg_and_erase_ctrler_bank1():  FuncExit
+[2.884] wait_while_flash_busy_bank1():  FuncEntry
+[2.884] wait_while_flash_busy_bank1():  Flash status busy
+[2.885] wait_while_flash_busy_bank1():  Flash status busy
+[2.885] wait_while_flash_busy_bank1():  Flash status busy
+[2.885] wait_while_flash_busy_bank1():  Flash status busy
+[2.886] wait_while_flash_busy_bank1():  Flash status busy
+[2.886] wait_while_flash_busy_bank1():  Flash status busy
+[2.887] wait_while_flash_busy_bank1():  Flash status busy
+[2.887] wait_while_flash_busy_bank1():  Flash status busy
+[2.888] wait_while_flash_busy_bank1():  Flash status busy
+[2.888] wait_while_flash_busy_bank1():  Flash status busy
+[2.888] wait_while_flash_busy_bank1():  Flash status busy
+[2.889] wait_while_flash_busy_bank1():  Flash status busy
+[2.889] wait_while_flash_busy_bank1():  Flash status busy
+[2.890] wait_while_flash_busy_bank1():  Flash status busy
+[2.890] wait_while_flash_busy_bank1():  Flash status busy
+[2.890] wait_while_flash_busy_bank1():  Flash status busy
+[2.891] wait_while_flash_busy_bank1():  Flash status busy
+[2.891] wait_while_flash_busy_bank1():  Flash status busy
+[2.892] wait_while_flash_busy_bank1():  Flash status busy
+[2.892] wait_while_flash_busy_bank1():  Flash status busy
+[2.892] wait_while_flash_busy_bank1():  Flash status busy
+[2.893] wait_while_flash_busy_bank1():  Flash status busy
+[2.893] wait_while_flash_busy_bank1():  Flash status busy
+[2.893] wait_while_flash_busy_bank1():  Flash status busy
+[2.894] wait_while_flash_busy_bank1():  Flash status busy
+[2.894] wait_while_flash_busy_bank1():  Flash status busy
+[2.894] wait_while_flash_busy_bank1():  Flash status busy
+[2.895] wait_while_flash_busy_bank1():  Flash status busy
+[2.895] wait_while_flash_busy_bank1():  Flash status busy
+[2.895] wait_while_flash_busy_bank1():  Flash status busy
+[2.896] wait_while_flash_busy_bank1():  Flash status busy
+[2.896] wait_while_flash_busy_bank1():  Flash status busy
+[2.896] wait_while_flash_busy_bank1():  Flash status busy
+[2.897] wait_while_flash_busy_bank1():  Flash status busy
+[2.897] wait_while_flash_busy_bank1():  Flash status busy
+[2.900] wait_while_flash_busy_bank1():  Flash status busy
+[2.902] wait_while_flash_busy_bank1():  Flash status busy
+[2.903] wait_while_flash_busy_bank1():  Flash status busy
+[2.903] wait_while_flash_busy_bank1():  Flash status busy
+[2.904] wait_while_flash_busy_bank1():  Flash status busy
+[2.904] wait_while_flash_busy_bank1():  Flash status busy
+[2.905] wait_while_flash_busy_bank1():  Flash status busy
+[2.905] wait_while_flash_busy_bank1():  Flash status busy
+[2.906] wait_while_flash_busy_bank1():  FuncExit
+[2.906] lock_flash_prg_and_erase_ctrler_bank1():  FuncEntry
+[2.906] lock_flash_prg_and_erase_ctrler_bank1():  FuncExit
+[2.907] unlock_flash_prg_and_erase_ctrler_bank1():  FuncEntry
+[2.908] unlock_flash_prg_and_erase_ctrler_bank1():  FuncExit
+[2.909] wait_while_flash_busy_bank1():  FuncEntry
+[2.910] wait_while_flash_busy_bank1():  Flash status busy
+[2.910] wait_while_flash_busy_bank1():  Flash status busy
+[2.910] wait_while_flash_busy_bank1():  Flash status busy
+[2.911] wait_while_flash_busy_bank1():  Flash status busy
+[2.911] wait_while_flash_busy_bank1():  Flash status busy
+[2.911] wait_while_flash_busy_bank1():  Flash status busy
+[2.912] wait_while_flash_busy_bank1():  Flash status busy
+[2.912] wait_while_flash_busy_bank1():  Flash status busy
+[2.913] wait_while_flash_busy_bank1():  Flash status busy
+[2.913] wait_while_flash_busy_bank1():  Flash status busy
+[2.914] wait_while_flash_busy_bank1():  Flash status busy
+[2.914] wait_while_flash_busy_bank1():  Flash status busy
+[2.915] wait_while_flash_busy_bank1():  Flash status busy
+[2.917] wait_while_flash_busy_bank1():  Flash status busy
+[2.918] wait_while_flash_busy_bank1():  Flash status busy
+[2.918] wait_while_flash_busy_bank1():  Flash status busy
+[2.919] wait_while_flash_busy_bank1():  Flash status busy
+[2.919] wait_while_flash_busy_bank1():  Flash status busy
+[2.920] wait_while_flash_busy_bank1():  Flash status busy
+[2.920] wait_while_flash_busy_bank1():  Flash status busy
+[2.921] wait_while_flash_busy_bank1():  Flash status busy
+[2.921] wait_while_flash_busy_bank1():  Flash status busy
+[2.922] wait_while_flash_busy_bank1():  Flash status busy
+[2.922] wait_while_flash_busy_bank1():  Flash status busy
+[2.923] wait_while_flash_busy_bank1():  Flash status busy
+[2.923] wait_while_flash_busy_bank1():  Flash status busy
+[2.923] wait_while_flash_busy_bank1():  Flash status busy
+[2.924] wait_while_flash_busy_bank1():  Flash status busy
+[2.925] wait_while_flash_busy_bank1():  Flash status busy
+[2.925] wait_while_flash_busy_bank1():  Flash status busy
+[2.926] wait_while_flash_busy_bank1():  Flash status busy
+[2.926] wait_while_flash_busy_bank1():  Flash status busy
+[2.926] wait_while_flash_busy_bank1():  Flash status busy
+[2.927] wait_while_flash_busy_bank1():  Flash status busy
+[2.927] wait_while_flash_busy_bank1():  Flash status busy
+[2.927] wait_while_flash_busy_bank1():  Flash status busy
+[2.928] wait_while_flash_busy_bank1():  Flash status busy
+[2.928] wait_while_flash_busy_bank1():  Flash status busy
+[2.928] wait_while_flash_busy_bank1():  Flash status busy
+[2.929] wait_while_flash_busy_bank1():  Flash status busy
+[2.929] wait_while_flash_busy_bank1():  Flash status busy
+[2.930] wait_while_flash_busy_bank1():  Flash status busy
+[2.931] wait_while_flash_busy_bank1():  Flash status busy
+[2.931] wait_while_flash_busy_bank1():  Flash status busy
+[2.932] wait_while_flash_busy_bank1():  FuncExit
+[2.932] lock_flash_prg_and_erase_ctrler_bank1():  FuncEntry
+[2.933] lock_flash_prg_and_erase_ctrler_bank1():  FuncExit
+[2.934] unlock_flash_prg_and_erase_ctrler_bank1():  FuncEntry
+[2.935] unlock_flash_prg_and_erase_ctrler_bank1():  FuncExit
+[2.936] wait_while_flash_busy_bank1():  FuncEntry
+[2.936] wait_while_flash_busy_bank1():  Flash status busy
+[2.937] wait_while_flash_busy_bank1():  Flash status busy
+[2.937] wait_while_flash_busy_bank1():  Flash status busy
+[2.938] wait_while_flash_busy_bank1():  Flash status busy
+[2.938] wait_while_flash_busy_bank1():  Flash status busy
+[2.939] wait_while_flash_busy_bank1():  Flash status busy
+[2.940] wait_while_flash_busy_bank1():  Flash status busy
+[2.941] wait_while_flash_busy_bank1():  Flash status busy
+[2.943] wait_while_flash_busy_bank1():  Flash status busy
+[2.943] wait_while_flash_busy_bank1():  Flash status busy
+[2.944] wait_while_flash_busy_bank1():  Flash status busy
+[2.944] wait_while_flash_busy_bank1():  Flash status busy
+[2.945] wait_while_flash_busy_bank1():  Flash status busy
+[2.945] wait_while_flash_busy_bank1():  Flash status busy
+[2.946] wait_while_flash_busy_bank1():  Flash status busy
+[2.946] wait_while_flash_busy_bank1():  Flash status busy
+[2.946] wait_while_flash_busy_bank1():  Flash status busy
+[2.947] wait_while_flash_busy_bank1():  Flash status busy
+[2.947] wait_while_flash_busy_bank1():  Flash status busy
+[2.947] wait_while_flash_busy_bank1():  Flash status busy
+[2.948] wait_while_flash_busy_bank1():  Flash status busy
+[2.948] wait_while_flash_busy_bank1():  Flash status busy
+[2.949] wait_while_flash_busy_bank1():  Flash status busy
+[2.949] wait_while_flash_busy_bank1():  Flash status busy
+[2.950] wait_while_flash_busy_bank1():  Flash status busy
+[2.951] wait_while_flash_busy_bank1():  Flash status busy
+[2.951] wait_while_flash_busy_bank1():  Flash status busy
+[2.952] wait_while_flash_busy_bank1():  Flash status busy
+[2.952] wait_while_flash_busy_bank1():  Flash status busy
+[2.953] wait_while_flash_busy_bank1():  Flash status busy
+[2.953] wait_while_flash_busy_bank1():  Flash status busy
+[2.954] wait_while_flash_busy_bank1():  Flash status busy
+[2.954] wait_while_flash_busy_bank1():  Flash status busy
+[2.954] wait_while_flash_busy_bank1():  Flash status busy
+[2.955] wait_while_flash_busy_bank1():  Flash status busy
+[2.955] wait_while_flash_busy_bank1():  Flash status busy
+[2.956] wait_while_flash_busy_bank1():  Flash status busy
+[2.956] wait_while_flash_busy_bank1():  Flash status busy
+[2.956] wait_while_flash_busy_bank1():  Flash status busy
+[2.957] wait_while_flash_busy_bank1():  Flash status busy
+[2.957] wait_while_flash_busy_bank1():  Flash status busy
+[2.957] wait_while_flash_busy_bank1():  Flash status busy
+[2.958] wait_while_flash_busy_bank1():  Flash status busy
+[2.958] wait_while_flash_busy_bank1():  FuncExit
+[2.958] lock_flash_prg_and_erase_ctrler_bank1():  FuncEntry
+[2.959] lock_flash_prg_and_erase_ctrler_bank1():  FuncExit
+[2.959] unlock_flash_prg_and_erase_ctrler_bank1():  FuncEntry
+[2.960] unlock_flash_prg_and_erase_ctrler_bank1():  FuncExit
+[2.961] wait_while_flash_busy_bank1():  FuncEntry
+[2.962] wait_while_flash_busy_bank1():  Flash status busy
+[2.962] wait_while_flash_busy_bank1():  Flash status busy
+[2.962] wait_while_flash_busy_bank1():  Flash status busy
+[2.962] wait_while_flash_busy_bank1():  Flash status busy
+[2.963] wait_while_flash_busy_bank1():  Flash status busy
+[2.963] wait_while_flash_busy_bank1():  Flash status busy
+[2.963] wait_while_flash_busy_bank1():  Flash status busy
+[2.964] wait_while_flash_busy_bank1():  Flash status busy
+[2.964] wait_while_flash_busy_bank1():  Flash status busy
+[2.965] wait_while_flash_busy_bank1():  Flash status busy
+[2.965] wait_while_flash_busy_bank1():  Flash status busy
+[2.966] wait_while_flash_busy_bank1():  Flash status busy
+[2.966] wait_while_flash_busy_bank1():  Flash status busy
+[2.967] wait_while_flash_busy_bank1():  Flash status busy
+[2.967] wait_while_flash_busy_bank1():  Flash status busy
+[2.967] wait_while_flash_busy_bank1():  Flash status busy
+[2.968] wait_while_flash_busy_bank1():  Flash status busy
+[2.968] wait_while_flash_busy_bank1():  Flash status busy
+[2.969] wait_while_flash_busy_bank1():  Flash status busy
+[2.969] wait_while_flash_busy_bank1():  Flash status busy
+[2.969] wait_while_flash_busy_bank1():  Flash status busy
+[2.972] wait_while_flash_busy_bank1():  Flash status busy
+[2.972] wait_while_flash_busy_bank1():  Flash status busy
+[2.973] wait_while_flash_busy_bank1():  Flash status busy
+[2.973] wait_while_flash_busy_bank1():  Flash status busy
+[2.973] wait_while_flash_busy_bank1():  Flash status busy
+[2.974] wait_while_flash_busy_bank1():  Flash status busy
+[2.974] wait_while_flash_busy_bank1():  Flash status busy
+[2.975] wait_while_flash_busy_bank1():  Flash status busy
+[2.975] wait_while_flash_busy_bank1():  Flash status busy
+[2.975] wait_while_flash_busy_bank1():  Flash status busy
+[2.976] wait_while_flash_busy_bank1():  Flash status busy
+[2.976] wait_while_flash_busy_bank1():  Flash status busy
+[2.976] wait_while_flash_busy_bank1():  Flash status busy
+[2.977] wait_while_flash_busy_bank1():  Flash status busy
+[2.977] wait_while_flash_busy_bank1():  Flash status busy
+[2.978] wait_while_flash_busy_bank1():  Flash status busy
+[2.978] wait_while_flash_busy_bank1():  Flash status busy
+[2.978] wait_while_flash_busy_bank1():  Flash status busy
+[2.979] wait_while_flash_busy_bank1():  Flash status busy
+[2.979] wait_while_flash_busy_bank1():  Flash status busy
+[2.980] wait_while_flash_busy_bank1():  Flash status busy
+[2.980] wait_while_flash_busy_bank1():  Flash status busy
+[2.980] wait_while_flash_busy_bank1():  Flash status busy
+[2.981] wait_while_flash_busy_bank1():  Flash status busy
+[2.981] wait_while_flash_busy_bank1():  Flash status busy
+[2.982] wait_while_flash_busy_bank1():  Flash status busy
+[2.983] wait_while_flash_busy_bank1():  Flash status busy
+[2.983] wait_while_flash_busy_bank1():  FuncExit
+[2.983] lock_flash_prg_and_erase_ctrler_bank1():  FuncEntry
+[2.984] lock_flash_prg_and_erase_ctrler_bank1():  FuncExit
+[2.984] unlock_flash_prg_and_erase_ctrler_bank1():  FuncEntry
+[2.985] unlock_flash_prg_and_erase_ctrler_bank1():  FuncExit
+[2.986] wait_while_flash_busy_bank1():  FuncEntry
+[2.987] wait_while_flash_busy_bank1():  Flash status busy
+[2.987] wait_while_flash_busy_bank1():  Flash status busy
+[2.987] wait_while_flash_busy_bank1():  Flash status busy
+[2.988] wait_while_flash_busy_bank1():  Flash status busy
+[2.988] wait_while_flash_busy_bank1():  Flash status busy
+[2.989] wait_while_flash_busy_bank1():  Flash status busy
+[2.989] wait_while_flash_busy_bank1():  Flash status busy
+[2.989] wait_while_flash_busy_bank1():  Flash status busy
+[2.990] wait_while_flash_busy_bank1():  Flash status busy
+[2.990] wait_while_flash_busy_bank1():  Flash status busy
+[2.990] wait_while_flash_busy_bank1():  Flash status busy
+[2.991] wait_while_flash_busy_bank1():  Flash status busy
+[2.991] wait_while_flash_busy_bank1():  Flash status busy
+[2.991] wait_while_flash_busy_bank1():  Flash status busy
+[2.992] wait_while_flash_busy_bank1():  Flash status busy
+[2.992] wait_while_flash_busy_bank1():  Flash status busy
+[2.992] wait_while_flash_busy_bank1():  Flash status busy
+[2.993] wait_while_flash_busy_bank1():  Flash status busy
+[2.993] wait_while_flash_busy_bank1():  Flash status busy
+[2.994] wait_while_flash_busy_bank1():  Flash status busy
+[2.994] wait_while_flash_busy_bank1():  Flash status busy
+[2.994] wait_while_flash_busy_bank1():  Flash status busy
+[2.995] wait_while_flash_busy_bank1():  Flash status busy
+[2.995] wait_while_flash_busy_bank1():  Flash status busy
+[2.995] wait_while_flash_busy_bank1():  Flash status busy
+[2.996] wait_while_flash_busy_bank1():  Flash status busy
+[2.996] wait_while_flash_busy_bank1():  Flash status busy
+[2.996] wait_while_flash_busy_bank1():  Flash status busy
+[2.997] wait_while_flash_busy_bank1():  Flash status busy
+[2.997] wait_while_flash_busy_bank1():  Flash status busy
+[2.998] wait_while_flash_busy_bank1():  Flash status busy
+[2.998] wait_while_flash_busy_bank1():  Flash status busy
+[2.999] wait_while_flash_busy_bank1():  Flash status busy
+[3.001] wait_while_flash_busy_bank1():  Flash status busy
+[3.002] wait_while_flash_busy_bank1():  Flash status busy
+[3.002] wait_while_flash_busy_bank1():  Flash status busy
+[3.003] wait_while_flash_busy_bank1():  Flash status busy
+[3.003] wait_while_flash_busy_bank1():  Flash status busy
+[3.004] wait_while_flash_busy_bank1():  Flash status busy
+[3.004] wait_while_flash_busy_bank1():  Flash status busy
+[3.005] wait_while_flash_busy_bank1():  Flash status busy
+[3.005] wait_while_flash_busy_bank1():  Flash status busy
+[3.005] wait_while_flash_busy_bank1():  Flash status busy
+[3.006] wait_while_flash_busy_bank1():  Flash status busy
+[3.006] wait_while_flash_busy_bank1():  Flash status busy
+[3.007] wait_while_flash_busy_bank1():  Flash status busy
+[3.007] wait_while_flash_busy_bank1():  Flash status busy
+[3.007] wait_while_flash_busy_bank1():  Flash status busy
+[3.008] wait_while_flash_busy_bank1():  Flash status busy
+[3.008] wait_while_flash_busy_bank1():  Flash status busy
+[3.009] wait_while_flash_busy_bank1():  FuncExit
+[3.009] lock_flash_prg_and_erase_ctrler_bank1():  FuncEntry
+[3.009] lock_flash_prg_and_erase_ctrler_bank1():  FuncExit
+[3.009] flash_page_erase():  FuncExit
+[3.010] handleFlashPacket():  Flash write: Address= 0x8000000, Length=392 
+[3.010] unlock_flash_prg_and_erase_ctrler_bank1():  FuncEntry
+[3.011] unlock_flash_prg_and_erase_ctrler_bank1():  FuncExit
+[3.011] program_flash_memory():  FuncEntry
+[3.076]  program_flash_memory():  Programming flash.. 
+[3.076]  program_flash_memory():  Programming flash..DONE 
+[3.080]  program_flash_memory():  STM32 device: flash programming successful 8000000 
+[3.080] lock_flash_prg_and_erase_ctrler_bank1():  FuncEntry
+[3.081] lock_flash_prg_and_erase_ctrler_bank1():  FuncExit
+[3.081] program_flash_memory():  FuncExit
+[3.081] get_flash_error_status():  FuncEntry
+[3.081] wait_while_flash_busy_bank1():  FuncEntry
+[3.081] wait_while_flash_busy_bank1():  FuncExit
+[3.082] get_flash_error_status():  FuncExit
+[3.082] handleFlashPacket():  Flash write completed in 0.072000 seconds, 5.316841kB/s
+[3.083] handleFlashPacket():  Flash write: Address= 0x8000188, Length=2984 
+[3.084] unlock_flash_prg_and_erase_ctrler_bank1():  FuncEntry
+[3.085] unlock_flash_prg_and_erase_ctrler_bank1():  FuncExit
+[3.085] program_flash_memory():  FuncEntry
+[3.204]  program_flash_memory():  Programming flash.. 
+[3.255]  program_flash_memory():  Programming flash.. 
+[3.255]  program_flash_memory():  Programming flash..DONE 
+[3.283]  program_flash_memory():  STM32 device: flash programming successful 8000188 
+[3.283] lock_flash_prg_and_erase_ctrler_bank1():  FuncEntry
+[3.284] lock_flash_prg_and_erase_ctrler_bank1():  FuncExit
+[3.284] program_flash_memory():  FuncExit
+[3.284] get_flash_error_status():  FuncEntry
+[3.284] wait_while_flash_busy_bank1():  FuncEntry
+[3.285] wait_while_flash_busy_bank1():  FuncExit
+[3.286] get_flash_error_status():  FuncExit
+[3.286] handleFlashPacket():  Flash write completed in 0.203000 seconds, 14.354988kB/s
+[3.286] handleFlashPacket():  Flash write: Address= 0x8000d30, Length=2960 
+[3.286] unlock_flash_prg_and_erase_ctrler_bank1():  FuncEntry
+[3.287] unlock_flash_prg_and_erase_ctrler_bank1():  FuncExit
+[3.287] program_flash_memory():  FuncEntry
+[3.404]  program_flash_memory():  Programming flash.. 
+[3.454]  program_flash_memory():  Programming flash.. 
+[3.454]  program_flash_memory():  Programming flash..DONE 
+[3.484]  program_flash_memory():  STM32 device: flash programming successful 8000d30 
+[3.484] lock_flash_prg_and_erase_ctrler_bank1():  FuncEntry
+[3.485] lock_flash_prg_and_erase_ctrler_bank1():  FuncExit
+[3.485] program_flash_memory():  FuncExit
+[3.485] get_flash_error_status():  FuncEntry
+[3.485] wait_while_flash_busy_bank1():  FuncEntry
+[3.486] wait_while_flash_busy_bank1():  FuncExit
+[3.489] get_flash_error_status():  FuncExit
+[3.489] handleFlashPacket():  Flash write completed in 0.203000 seconds, 14.239532kB/s
+[3.489] handleFlashPacket():  Flash write: Address= 0x80018c0, Length=2960 
+[3.490] unlock_flash_prg_and_erase_ctrler_bank1():  FuncEntry
+[3.491] unlock_flash_prg_and_erase_ctrler_bank1():  FuncExit
+[3.491] program_flash_memory():  FuncEntry
+[3.613]  program_flash_memory():  Programming flash.. 
+[3.663]  program_flash_memory():  Programming flash.. 
+[3.664]  program_flash_memory():  Programming flash..DONE 
+[3.693]  program_flash_memory():  STM32 device: flash programming successful 80018c0 
+[3.693] lock_flash_prg_and_erase_ctrler_bank1():  FuncEntry
+[3.694] lock_flash_prg_and_erase_ctrler_bank1():  FuncExit
+[3.694] program_flash_memory():  FuncExit
+[3.694] get_flash_error_status():  FuncEntry
+[3.694] wait_while_flash_busy_bank1():  FuncEntry
+[3.695] wait_while_flash_busy_bank1():  FuncExit
+[3.696] get_flash_error_status():  FuncExit
+[3.696] handleFlashPacket():  Flash write completed in 0.207000 seconds, 13.964372kB/s
+[3.696] handleFlashPacket():  Flash write: Address= 0x8002450, Length=2672 
+[3.696] unlock_flash_prg_and_erase_ctrler_bank1():  FuncEntry
+[3.697] unlock_flash_prg_and_erase_ctrler_bank1():  FuncExit
+[3.697] program_flash_memory():  FuncEntry
+[3.816]  program_flash_memory():  Programming flash.. 
+[3.867]  program_flash_memory():  Programming flash.. 
+[3.867]  program_flash_memory():  Programming flash..DONE 
+[3.893]  program_flash_memory():  STM32 device: flash programming successful 8002450 
+[3.893] lock_flash_prg_and_erase_ctrler_bank1():  FuncEntry
+[3.893] lock_flash_prg_and_erase_ctrler_bank1():  FuncExit
+[3.894] program_flash_memory():  FuncExit
+[3.894] get_flash_error_status():  FuncEntry
+[3.894] wait_while_flash_busy_bank1():  FuncEntry
+[3.894] wait_while_flash_busy_bank1():  FuncExit
+[3.895] get_flash_error_status():  FuncExit
+[3.895] handleFlashPacket():  Flash write completed in 0.199000 seconds, 13.112437kB/s
+[3.895] handleFlashPacket():  Flash write: Address= 0x8002ec0, Length=152 
+[3.896] unlock_flash_prg_and_erase_ctrler_bank1():  FuncEntry
+[3.897] unlock_flash_prg_and_erase_ctrler_bank1():  FuncExit
+[3.897] program_flash_memory():  FuncEntry
+[3.957]  program_flash_memory():  Programming flash.. 
+[3.957]  program_flash_memory():  Programming flash..DONE 
+[3.959]  program_flash_memory():  STM32 device: flash programming successful 8002ec0 
+[3.959] lock_flash_prg_and_erase_ctrler_bank1():  FuncEntry
+[3.960] lock_flash_prg_and_erase_ctrler_bank1():  FuncExit
+[3.960] program_flash_memory():  FuncExit
+[3.960] get_flash_error_status():  FuncEntry
+[3.960] wait_while_flash_busy_bank1():  FuncEntry
+[3.960] wait_while_flash_busy_bank1():  FuncExit
+[3.961] get_flash_error_status():  FuncExit
+[3.961] handleFlashPacket():  Flash write completed in 0.066000 seconds, 2.249053kB/s
+[3.961] handleFlashPacket():  Flash write: Address= 0x8002f58, Length=4 
+[3.962] unlock_flash_prg_and_erase_ctrler_bank1():  FuncEntry
+[3.963] unlock_flash_prg_and_erase_ctrler_bank1():  FuncExit
+[3.963] program_flash_memory():  FuncEntry
+[4.019]  program_flash_memory():  Programming flash.. 
+[4.019]  program_flash_memory():  Programming flash..DONE 
+[4.019]  program_flash_memory():  STM32 device: flash programming successful 8002f58 
+[4.019] lock_flash_prg_and_erase_ctrler_bank1():  FuncEntry
+[4.020] lock_flash_prg_and_erase_ctrler_bank1():  FuncExit
+[4.020] program_flash_memory():  FuncExit
+[4.020] get_flash_error_status():  FuncEntry
+[4.020] wait_while_flash_busy_bank1():  FuncEntry
+[4.021] wait_while_flash_busy_bank1():  FuncExit
+[4.021] get_flash_error_status():  FuncExit
+[4.021] handleFlashPacket():  Flash write completed in 0.060000 seconds, 0.065104kB/s
+[4.022] handleFlashPacket():  Flash write: Address= 0x8002f5c, Length=4 
+[4.022] unlock_flash_prg_and_erase_ctrler_bank1():  FuncEntry
+[4.023] unlock_flash_prg_and_erase_ctrler_bank1():  FuncExit
+[4.023] program_flash_memory():  FuncEntry
+[4.082]  program_flash_memory():  Programming flash.. 
+[4.082]  program_flash_memory():  Programming flash..DONE 
+[4.082]  program_flash_memory():  STM32 device: flash programming successful 8002f5c 
+[4.082] lock_flash_prg_and_erase_ctrler_bank1():  FuncEntry
+[4.083] lock_flash_prg_and_erase_ctrler_bank1():  FuncExit
+[4.083] program_flash_memory():  FuncExit
+[4.083] get_flash_error_status():  FuncEntry
+[4.083] wait_while_flash_busy_bank1():  FuncEntry
+[4.084] wait_while_flash_busy_bank1():  FuncExit
+[4.085] get_flash_error_status():  FuncExit
+[4.085] handleFlashPacket():  Flash write completed in 0.063000 seconds, 0.062004kB/s
+[4.085] handleFlashPacket():  Flash write: Address= 0x8002f60, Length=4 
+[4.085] unlock_flash_prg_and_erase_ctrler_bank1():  FuncEntry
+[4.087] unlock_flash_prg_and_erase_ctrler_bank1():  FuncExit
+[4.087] program_flash_memory():  FuncEntry
+[4.144]  program_flash_memory():  Programming flash.. 
+[4.144]  program_flash_memory():  Programming flash..DONE 
+[4.145]  program_flash_memory():  STM32 device: flash programming successful 8002f60 
+[4.145] lock_flash_prg_and_erase_ctrler_bank1():  FuncEntry
+[4.146] lock_flash_prg_and_erase_ctrler_bank1():  FuncExit
+[4.146] program_flash_memory():  FuncExit
+[4.146] get_flash_error_status():  FuncEntry
+[4.146] wait_while_flash_busy_bank1():  FuncEntry
+[4.146] wait_while_flash_busy_bank1():  FuncExit
+[4.147] get_flash_error_status():  FuncExit
+[4.147] handleFlashPacket():  Flash write completed in 0.062000 seconds, 0.063004kB/s
+[4.147] STM32_AppReset():  Enter STM32_AppReset() function 
+[4.255] STM32_AppReset():  NVIC_DFSR_REG = 0x00000009
+[4.256] STM32_AppReset():  NVIC_CFGFSR_REG = 0x00000000
+[4.257] STM32_AppReset():  XPSR = 0x01000000
+[4.259] handlePacket():  Reading 0x2 bytes of memory from addr 0x80027da 
+[4.260] handlePacket():  Reading 0x4 bytes of memory from addr 0x8002a64 
+[4.261] handlePacket():  Reading 0x2 bytes of memory from addr 0x80027da 
+[4.263] handlePacket():  Reading 0x4 bytes of memory from addr 0x8002e0c 
+[4.263] handlePacket():  Reading 0x4 bytes of memory from addr 0xe0042004 
+[4.278] handlePacket():  Reading 0x4 bytes of memory from addr 0x8002e0c 
+[4.280] handlePacket():  Reading 0x2 bytes of memory from addr 0x80027da 
+[4.281] handlePacket():  Reading 0x4 bytes of memory from addr 0x8002a64 
+[4.282] handlePacket():  Reading 0x2 bytes of memory from addr 0x80027da 
+[4.282] handlePacket():  Reading 0x4 bytes of memory from addr 0x8002a64 
+[4.283] handlePacket():  Reading 0x2 bytes of memory from addr 0x80027da 
+[4.287] performContinue():  TraceCaptureStart and SWV event set to APP_TRUE 
+[4.393] handleGDBConnection():  TraceCaptureStart and SWV event set to APP_FALSE 
+[4.398] Device_GetHaltReason():  NVIC_DFSR_REG = 0x00000002 
+[4.411] handlePacket():  Reading 0x4 bytes of memory from addr 0x80027da 
+[4.414] handlePacket():  Reading 0x4 bytes of memory from addr 0x80027da 
+[4.715] handlePacket():  Reading 0x40 bytes of memory from addr 0x80027c0 
+[4.734] handlePacket():  Reading 0x40 bytes of memory from addr 0x8002800 
+[6.484] performContinue():  TraceCaptureStart and SWV event set to APP_TRUE 
+[6.590] Device_GetStatus():  ST_LINK device status: RUN_MODE
